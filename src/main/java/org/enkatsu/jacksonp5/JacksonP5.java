@@ -22,7 +22,7 @@ public class JacksonP5 {
     public <T extends JacksonP5Object> T readValue(String json, Class<T> clazz) {
         try {
             T instance = mapper.readValue(json, clazz);
-            instance.setApp(app);;
+            instance.setApp(app);
             return instance;
         } catch (JsonProcessingException e) {
             System.err.println(e.getMessage());
