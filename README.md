@@ -1,56 +1,13 @@
 # processing-library-template-gradle
 
-Processing library template using gradle.
+JacksonP5 is a [Jackson](https://github.com/FasterXML/jackson) wrapper library for Processing.
 
-## Development
+## What is Jackson?
 
-### Download template
-
-```bash
-mkdir YOUR_LIBRARY_NAME
-cd YOUR_LIBRARY_NAME
-git clone https://github.com/endoh0509/processing-library-template-gradle.git .
-``` 
-
-### Edit settings.gradle
-
-```settings.gradle
-rootProject.name='YOUR_LIBRARY_NAME'
-```
-
-### Edit build.gradle
-
-```build.gradle
-group 'YOUR_LIBRARY_NAME'
-```
-
-### Edit library.properties
-
-Please write to us with information about your library.
-
-### Write library source code
-
-Edit `src/main/java/*`
-
-## Build
-
-```bash
-./gradlew -q
-```
-
-### Build with GitHub Actions
-
-Push the tag to the GitHub repository. Then the Release workflow will run and the build result will be uploaded to the Releases page on GitHub.
-
-## Generate JavaDoc
-
-```bash
-./gradlew javadoc
-```
-
-## Installation
-
-Copy this directory into `processing/libraries`
+> Jackson has been known as "the Java JSON library" or "the best JSON parser for Java". Or simply as "JSON for Java".
+More than that, Jackson is a suite of data-processing tools for Java (and the JVM platform), including the flagship streaming JSON parser / generator library, matching data-binding library (POJOs to and from JSON) and additional data format modules to process data encoded in Avro, BSON, CBOR, CSV, Smile, (Java) Properties, Protobuf, TOML, XML or YAML; and even the large set of data format modules to support data types of widely used data types such as Guava, Joda, PCollections and many, many more (see below).
+While the actual core components live under their own projects -- including the three core packages (streaming, databind, annotations); data format libraries; data type libraries; JAX-RS provider; and a miscellaneous set of other extension modules -- this project act as the central hub for linking all the pieces together.
+A good companion to this README is the Jackson Project FAQ.
 
 ## License
 
