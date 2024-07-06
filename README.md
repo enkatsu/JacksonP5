@@ -11,6 +11,10 @@ More than that, Jackson is a suite of data-processing tools for Java (and the JV
 While the actual core components live under their own projects -- including the three core packages (streaming, databind, annotations); data format libraries; data type libraries; JAX-RS provider; and a miscellaneous set of other extension modules -- this project act as the central hub for linking all the pieces together.
 A good companion to this README is the Jackson Project FAQ.
 
+## Installation
+
+Download JacksonP5 from [releases](https://github.com/enkatsu/JacksonP5/releases) and place it in libraries.
+
 ## Usage
 
 ### Read from String
