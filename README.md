@@ -17,6 +17,8 @@ Download JacksonP5 from [releases](https://github.com/enkatsu/JacksonP5/releases
 
 ## Usage
 
+[JavaDoc](https://enkatsu.github.io/JacksonP5/javadoc/org/enkatsu/jacksonp5/package-summary.html)
+
 ### Read from String
 
 ```java
