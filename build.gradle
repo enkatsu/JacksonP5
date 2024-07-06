@@ -12,7 +12,7 @@ sourceCompatibility = 1.8
 rootProject.version=''
 buildDir='library'
 libsDirName='./'
-docsDirName='../reference'
+docsDirName='../docs'
 
 repositories {
     mavenCentral()
