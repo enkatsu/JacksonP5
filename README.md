@@ -33,6 +33,7 @@ String json = """
 void setup() {
   size(600, 600);
   jacksonp5 = new JacksonP5(this);
+  // Mapping JSON to class
   ball = jacksonp5.readValue(json, Ball.class);
 }
 
@@ -41,7 +42,9 @@ void draw() {
   ball.draw();
 }
 
+// Must be a static class that extends JacksonP5Object
 static class Ball extends JacksonP5Object {
+  // Mapping JSON properties to class fields
   @JsonProperty("x")
   float x;
   @JsonProperty("y")
