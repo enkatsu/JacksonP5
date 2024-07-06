@@ -59,6 +59,7 @@ static class Ball extends JacksonP5Object {
   float r;
   
   void draw() {
+    // Functions and variables such as ellipse() and width must be accessed via the variable app.
     app.noStroke();
     app.fill(100, 200, 250);
     app.ellipse(x, y, r * 2, r * 2);
