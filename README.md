@@ -13,7 +13,7 @@ A good companion to this README is the Jackson Project FAQ.
 
 ## Installation
 
-Download JacksonP5 from [releases](https://github.com/enkatsu/JacksonP5/releases) and place it in libraries.
+Download JacksonP5 from [releases](https://github.com/enkatsu/JacksonP5/releases) and place it in `libraries` directory.
 
 ## Usage
 
