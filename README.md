@@ -1,4 +1,4 @@
-# processing-library-template-gradle
+# JacksonP5
 
 JacksonP5 is a [Jackson](https://github.com/FasterXML/jackson) wrapper library for Processing.
 

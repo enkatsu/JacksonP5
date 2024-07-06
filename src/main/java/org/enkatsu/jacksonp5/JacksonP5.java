@@ -23,7 +23,17 @@ public class JacksonP5 {
         try {
             T instance = mapper.readValue(json, clazz);
             instance.setApp(app);
+            instance.setMapper(mapper);
             return instance;
+        } catch (JsonProcessingException e) {
+            System.err.println(e.getMessage());
+            return null;
+        }
+    }
+
+    public <T extends JacksonP5Object> String writeValueAsString(T instance) {
+        try {
+            return mapper.writeValueAsString(instance);
         } catch (JsonProcessingException e) {
             System.err.println(e.getMessage());
             return null;
